@@ -4,7 +4,7 @@ Nome        : Natália Tenório Silva Uemura
 Linguagem   : C
 Problema    : https://judge.beecrowd.com/pt/problems/view/2758
 Data        : 14/04/2026
-Objetivo    : Imprimir 4 variáveis numéricas de formas diferentes
+Objetivo    : Imprimir 4 variáveis reais numéricas de formas diferentes
 Aprendizado : variáveis float e double
 */
 #include <stdio.h>
