@@ -1,3 +1,12 @@
+/*
+Disciplina  : Lógica de Programação, turma IB, 2026S1
+Nome        : Natália Tenório Silva Uemura
+Linguagem   : C
+Problema    : https://judge.beecrowd.com/pt/problems/view/2758
+Data        : 14/04/2026
+Objetivo    : Imprimir 4 variáveis numéricas de formas diferentes
+Aprendizado : variáveis float e double
+*/
 #include <stdio.h>
 
 int main (void){
@@ -20,9 +29,6 @@ int main (void){
     printf("C = %.3E, D = %.3E\n", C, D);
     printf("A = %.0f, B = %.0f\n", A, B);
     printf("C = %.0lf, D = %.0lf\n", C, D);
-
-    
-
 
 
     return 0;
