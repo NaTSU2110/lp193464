@@ -1,4 +1,13 @@
-/*https://judge.beecrowd.com/pt/problems/view/2757*/
+/*
+Disciplina  : Lógica de Programação, turma IB, 2026S1
+Nome        : Natália Tenório Silva Uemura
+Linguagem   : C
+Problema    : https://judge.beecrowd.com/pt/problems/view/2757
+Data        : 14/04/2026
+Objetivo    : Entrada e saída de números inteiros
+Aprendizado : máscaras
+*/
+
 #include <stdio.h>
 
 int main()
