@@ -1,3 +1,12 @@
+/*
+Disciplina  : Lógica de Programação, turma IB, 2026S1
+Nome        : Natália Tenório Silva Uemura
+Linguagem   : C
+Problema    : https://judge.beecrowd.com/pt/problems/view/1013
+Data        : 08/04/2026
+Objetivo    : Leia três valores e apresente o maior dos três valores lidos seguido da mensagem “eh o maior”
+Aprendizado : utilizar a função scanf e variáveis
+*/
 #include <stdio.h>
  
 int main() {
