@@ -11,16 +11,16 @@ Aprendizado : utilizar vetor
  
 int main(){
     int numeros[100];
-    int i,maior,posição;
+    int i,maior,posicao;
     maior=0;
     for(i=0;i<100;i++){
         scanf("%d", &numeros[i]);
         if (maior<numeros[i]){
             maior=numeros[i];
-            posição=i+1;
+            posicao=i+1;
         }
     }
     printf("%d\n",maior);
-    printf("%d\n",posição);
+    printf("%d\n",posicao);
     return 0;
 }
