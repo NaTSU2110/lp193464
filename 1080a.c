@@ -13,7 +13,7 @@ int main(){
     int numeros;
     int i,maior,posição;
     maior=0;
-    for(i=0;i<4;i++){
+    for(i=0;i<100;i++){
         scanf("%d", &numeros);
         if (maior<numeros){
             maior=numeros;
