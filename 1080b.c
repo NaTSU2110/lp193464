@@ -7,3 +7,20 @@ Data        : 20/04/2026
 Objetivo    : Leia 100 valores inteiros. Apresente então o maior valor lido e a posição dentre os 100 valores lidos.
 Aprendizado : utilizar vetor
 */
+#include <stdio.h>
+ 
+int main(){
+    int numeros[100];
+    int i,maior,posição;
+    maior=0;
+    for(i=0;i<100;i++){
+        scanf("%d", &numeros[i]);
+        if (maior<numeros[i]){
+            maior=numeros[i];
+            posição=i+1;
+        }
+    }
+    printf("%d\n",maior);
+    printf("%d\n",posição);
+    return 0;
+}
