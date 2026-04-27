@@ -6,7 +6,8 @@ Problema    : https://judge.beecrowd.com/pt/problems/view/1253
 Data        : 27/04/2026
 Objetivo    : Para cada caso de teste de entrada (a entrada deve 
 conter número de casas, a string e o deslocamento), imprima uma 
-linha de saída com o texto decodificado,
+linha de saída com o texto decodificado
+Aprendizado : tabela ascii e explorar melhor a string
 */
 #include <stdio.h>
 
