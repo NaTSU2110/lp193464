@@ -1,4 +1,13 @@
-
+/*
+Disciplina  : Lógica de Programação, turma IB, 2026S1
+Nome        : Natália Tenório Silva Uemura
+Linguagem   : C
+Problema    : https://judge.beecrowd.com/pt/problems/view/1253
+Data        : 27/04/2026
+Objetivo    : Para cada caso de teste de entrada (a entrada deve 
+conter número de casas, a string e o deslocamento), imprima uma 
+linha de saída com o texto decodificado,
+*/
 #include <stdio.h>
 
 int main(){
