@@ -1,4 +1,12 @@
-
+/*
+Disciplina  : Lógica de Programação, turma IB, 2026S1
+Nome        : Natália Tenório Silva Uemura
+Linguagem   : C
+Problema    : https://judge.beecrowd.com/pt/problems/view/1078
+Data        : 28/04/2026
+Objetivo    : tabuada
+Aprendizado : ...
+*/
 
 #include <stdio.h>
  
