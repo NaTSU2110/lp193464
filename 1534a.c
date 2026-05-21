@@ -1,3 +1,12 @@
+/*
+Disciplina  : Lógica de Programação, turma IB, 2026S1
+Nome        : Natália Tenório Silva Uemura
+Linguagem   : C
+Problema    : https://judge.beecrowd.com/pt/problems/view/1534
+Data        : 07/05/2026
+Objetivo    : matriz diagonal principal=1 e diagonal secundária=2, tamanho é lido, 3 preenche as outras posições
+Aprendizado : entender melhor a programação de uma matriz.
+*/
 #include<stdio.h>
 int main(){
     int i,j,k,n,matriz[72][72];
