@@ -4,7 +4,7 @@ Nome        : Natália Tenório Silva Uemura
 Linguagem   : C
 Problema    : https://judge.beecrowd.com/pt/problems/view/1534
 Data        : 12/05/2026
-Objetivo    : Montar uma matriz de N por N
+Objetivo    : matriz quadrada, diagonal principal=1 e diagonal secundária=2, tamanho é lido, 3 preenche as outras posições
 Aprendizado : Aprender a trabalhar com ponteiros.
 -------------------------------------------------------------------------- */
 
