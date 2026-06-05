@@ -1,3 +1,13 @@
+/*
+Disciplina  : Lógica de Programação, turma IB, 2026S1
+Nome        : Natália Tenório Silva Uemura
+Linguagem   : C
+Problema    : https://judge.beecrowd.com/pt/problems/view/1028
+Data        : 30/05/2026
+Objetivo    : Calcular o mdc entre dois números.
+Aprendizado : Funções recursivas.
+-------------------------------------------------------------------------- */
+
 #include <stdio.h>
 
 int MDC(int F1, int F2){
