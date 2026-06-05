@@ -1,17 +1,26 @@
+/*
+Disciplina  : Lógica de Programação, turma IB, 2026S1
+Nome        : Natália Tenório Silva Uemura
+Linguagem   : C
+Problema    : https://judge.beecrowd.com/pt/problems/view/1168
+Data        : 20/05/2026
+Objetivo    : determinar n° de LEDs com base no número
+Aprendizado : comando switch e string
+*/
 
 #include <stdio.h>
 
 int main()
 {
-    int N, i=0, j=0, nled=0;
+    int N, i, j, nled;
     scanf("%d", &N);
     getchar();
+    char num[1001];
     for(i=0; i<N; i++){
-        char v[1001];
-        fgets(v, sizeof(v), stdin);
+        fgets(num, sizeof(num), stdin);
         nled = 0;
-        for(j=0; v[j]!='\0' && v[j] != '\n'; j++){
-            switch(v[j]){
+        for(j=0; num[j]!='\0' && num[j] != '\n'; j++){
+            switch(num[j]){
                 case '1':
                     nled = nled + 2;
                     break;
@@ -36,9 +45,7 @@ int main()
                     break;
             }
         }
-        printf("%d leds\n", nled);
-        
+        printf("%d leds\n", nled);  
     }
-  
     return 0;
 }
