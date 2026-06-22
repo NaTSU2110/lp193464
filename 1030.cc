@@ -8,20 +8,20 @@ Objetivo    : indicar o sobrevivente
 Aprendizado : Funções recursivas e c++.
 -------------------------------------------------------------------------- */
 
-#include <iostream>
+#include <iostream> //incluir biblioteca (cin e cout)
 
-int josephus(int n, int k) {
-    if (n == 1)
-        return 0;
+int josephus(int n, int k) { //função recursiva que resolve o problema. n é o número de pessoas. k é o tamanho do salto.
+    if (n == 1) 
+        return 0; //a numeração das pessoas começa no 0 termina no n-1.
 
     return (josephus(n - 1, k) + k) % n;
 }
 
 int main() {
-    int NC;
-    std::cin >> NC;
+    int C;
+    std::cin >> C;
 
-    for (int i = 1; i <= NC; i++) {
+    for (int i = 1; i <= C; i++) {
         int n, k;
         std::cin >> n >> k;
 
