@@ -7,9 +7,8 @@ Data        : 22/06/2026
 Objetivo    : indicar o sobrevivente
 Aprendizado : Funções recursivas e c++.
 -------------------------------------------------------------------------- */
-#include <iostream>
 
-using namespace std;
+#include <iostream>
 
 int josephus(int n, int k) {
     if (n == 1)
@@ -20,13 +19,15 @@ int josephus(int n, int k) {
 
 int main() {
     int NC;
-    cin >> NC;
+    std::cin >> NC;
 
     for (int i = 1; i <= NC; i++) {
         int n, k;
-        cin >> n >> k;
+        std::cin >> n >> k;
 
-        cout << "Case " << i << ": " << josephus(n, k) + 1 << '\n';
+        std::cout << "Case " << i << ": "
+                  << josephus(n, k) + 1
+                  << '\n';
     }
 
     return 0;
