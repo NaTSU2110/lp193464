@@ -12,10 +12,10 @@ nota: imprecisão por causa do uso da função pow.
 #include <math.h>
 
 unsigned long long qgraos(int c){
-   if (c==0){
-       return 0;
-   }
-   return pow(2, c-1) + qgraos (c-1);
+    if(c == 0)
+        return 0;
+
+    return (1ULL << (c - 1)) + qgraos(c - 1);
 }
 int main() {
     int i, n, c;
