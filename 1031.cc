@@ -5,23 +5,23 @@ Linguagem   : C++
 Problema    : https://judge.beecrowd.com/pt/problems/view/1031
 Data        : 22/06/2026
 Objetivo    : determinar menor m, conservando o 13 como última região
-Aprendizado : c++.
+Aprendizado : c++, adaptar função de josephus.
 -------------------------------------------------------------------------- */
 #include <iostream>
 
-int corte(int N, int m) {
-    int ultima = 0;
-    for (int i = 1; i < N; i++) {
-        ultima = (ultima + m) % i;
+int ultima(int N, int m) { //com base na região anterior calcula a útima a ser desligada
+    int regiao = 0;
+    for (int i = 1; i < N; i++) { //o loop acontecerá até todas as regiões serem desligadas
+        regiao = (regiao + m) % i;
     }
-    return ultima + 1;
+    return regiao + 1;
 }
 
 int main() {
     int N;
-    while (std::cin >> N && N != 0) {
+    while (std::cin >> N && N != 0) { //entrada para o número de regiões
         int m = 1;
-        while (corte(N, m) != 12) {
+        while (corte(N, m) != 12) { //acha o menor m que determina a última região como a 13
             m++;
         }
         std::cout << m << '\n';
