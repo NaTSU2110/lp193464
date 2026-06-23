@@ -1,3 +1,12 @@
+/*
+Disciplina  : Lógica de Programação, turma IB, 2026S1
+Nome        : Natália Tenório Silva Uemura
+Linguagem   : C++
+Problema    : https://judge.beecrowd.com/pt/problems/view/1180
+Data        : 23/06/2026
+Objetivo    : imprimir menor valor de um vetor e sua posição
+Aprendizado : vetor em c++
+-------------------------------------------------------------------------- */
 #include <iostream>
 #include <vector>
 
