@@ -1,3 +1,12 @@
+/*
+Disciplina  : Lógica de Programação, turma IB, 2026S1
+Nome        : Natália Tenório Silva Uemura
+Linguagem   : C
+Problema    : https://judge.beecrowd.com/pt/problems/view/1078
+Data        : 05/05/2026
+Objetivo    : determinar se a entrada corresponde aos dígitos finais da outra
+Aprendizado : string
+*/
 #include <string.h>
 #include <stdio.h>
 
@@ -13,8 +22,10 @@ int main(){
         if(strlen(B) > strlen(A))   printf("nao encaixa\n");
         else{
             strcpy(A, A + (strlen(A) - strlen(B)));
-            if(!strcmp(A, B))       printf("encaixa\n");
-            else                    printf("nao encaixa\n");
+            if(!strcmp(A, B))       
+                printf("encaixa\n");
+            else                    
+                printf("nao encaixa\n");
         }
     }
 
